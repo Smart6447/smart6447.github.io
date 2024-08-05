@@ -60,16 +60,14 @@ function renderStartPage() {
 
             <p class="text-2xl text-center mb-12 text-[#ff668f]">
             We believe that “Exceptional quality of service is the foundation upon which lasting relationships are built."
-            Don't worry!!! The staff cannot know your
-            identity.
+            <br><br><br>
+            Don't worry!!! 
+            <br>
+            Your identity remains confidential. Your candid feedback empowers us to enhance our service quality sustainably.
             <br><br>
-            Please certainly give us honest feedback for
-            sustainable service quality development.
-            <br><br>
-            ไม่ต้องกังวล!!! พนักงานของเราไม่สามารถทราบถึงตัว
-            ตนของผู้ให้ feedback ได้
-            คุณลุกค้าสามารถให้คำติชมอย่างตรงไปตรงมาเพื่อ
-            การพัฒนาบริการอย่างยั่งยืน
+            อย่ากังวล!!! 
+            <br>
+            ตัวตนของคุณจะถูกเก็บเป็นความลับ ข้อเสนอแนะที่จริงใจของคุณช่วยให้เราปรับปรุงคุณภาพบริการได้อย่างยั่งยืน"
             </p>
             
             <div class="w-full flex justify-center">
@@ -87,7 +85,7 @@ function renderQuestionPage1() {
     'Hair Removal กำจัดขน',
     'Treatment หัตถการโดยพนักงาน',
     'Virgin Lift กระชับน้องสาว',
-    'Procedure หัตถการโดยแพทย',
+    'Procedure หัตถการโดยแพทย์',
     'Surgery ศัลยกรรม',
     'Other อื่นๆ',
   ];
@@ -132,11 +130,11 @@ function renderQuestionPage1() {
 function renderQuestionPage2() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
-    'K.Jane คุณแจน',
-    'K.Pim คุณแจน',
-    'K.Namwaan คุณแจน',
-
+    'K.Jane คุณเจน',
+    'K.Pim คุณพิม',
+    'K.Namwaan คุณน้ำหวาน',
     'Other อื่นๆ',
+    
   ];
 
   app.innerHTML = `
@@ -163,7 +161,7 @@ function renderQuestionPage2() {
                       
                 </div>
                 
-                <h2 class="text-3xl font-bold mb-8 text-center">Rate if Service คะแนนการบริการ</h2>
+                <h2 class="text-3xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-4 mb-8 flex-grow text-center">
                     ${['1', '2', '3', '4', '5']
                       .map(
@@ -219,7 +217,7 @@ function renderQuestionPage3() {
   app.innerHTML = `
             <div class="flex flex-col h-full p-8">
                 <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
-                <h2 class="text-3xl font-bold mb-8 text-center">${'Doctor’s name? ชื่อคณุหมอ'}</h2>
+                <h2 class="text-3xl font-bold mb-8 text-center">${'Doctor’s name? ชื่อคุณหมอ'}</h2>
                 <div class="space-y-4 mb-8 flex-grow">
                     ${options
                       .map(
@@ -239,7 +237,7 @@ function renderQuestionPage3() {
                       }
                 </div>
                 
-                <h2 class="text-3xl font-bold mb-8 text-center">Rate if Service คะแนนการบริการ</h2>
+                <h2 class="text-3xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-4 mb-8 flex-grow text-center">
                     ${['1', '2', '3', '4', '5']
                       .map(
@@ -287,7 +285,7 @@ function renderQuestionPage4() {
                 <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
                 <h2 class="text-3xl font-bold mb-8 text-center">${'Recommendations and Feedback (ข้อเสนอแนะ/ติชม)'}</h2>
                 <div class="space-y-4 mb-8 flex-grow">
-                    <textarea id="feedbackInput" class="w-full h-32 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"></textarea>
+                    <textarea id="feedbackInput" class="w-full h-24 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"></textarea>
                 </div>
                 
                 
