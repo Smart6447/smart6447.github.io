@@ -59,10 +59,7 @@ function renderStartPage() {
             <h1 class="text-4xl font-bold text-center mb-6">ADORA service feedback</h1>
 
             <p class="text-2xl text-center mb-12 text-[#ff668f]">
-            We believe that 'Nothing is more important than
-            the quality of service
-            Thank you for taking the time to help improve
-            the quality of our service.
+            We believe that “Exceptional quality of service is the foundation upon which lasting relationships are built."
             Don't worry!!! The staff cannot know your
             identity.
             <br><br>
