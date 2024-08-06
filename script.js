@@ -359,13 +359,13 @@ function getFeedBack() {
 }
 
 function startSurvey() {
-  currentPage = 'question1';
-  renderPage(start1);
+  currentPage = 'start1';
+  renderStartPage1();
 }
 
 function startSurvey1() {
-  currentPage = 'question1Start1';
-  renderPage();
+  currentPage = 'question1';
+  renderQuestionPage1();
 }
 
 function answerQuestion(answer) {
