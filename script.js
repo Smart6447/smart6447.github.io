@@ -360,11 +360,11 @@ function getFeedBack() {
 
 function startSurvey() {
   currentPage = 'question1';
-  renderPage();
+  renderPage(start1);
 }
 
 function startSurvey1() {
-  currentPage = 'Start1';
+  currentPage = 'question1Start1';
   renderPage();
 }
 
