@@ -92,11 +92,11 @@ function renderStartPage1() {
             <h1 class="text-3xl font-bold mb-8 text-center">${'Evaluation criteria เกณฑ์การประเมิน'}</h1>
        
             <p class="text-xl text-center mb-6 text-[#ff668f]">
-            "5" = Perfect (no room for improvement) - ดีเยี่ยม
-            "4" = Over expectation (still can be better) - ดี
-            "3" = Satisfy (as expectation level) - โอเค เฉยๆ
-            "2" = Poor (under expectation) - แย่
-            "1" = Worst (Urgent for improvement) - แย่มาก
+            "5" = Perfect (no room for improvement) - ดีเยี่ยม<br>
+            "4" = Over expectation (still can be better) - ดี<br>
+            "3" = Satisfy (as expectation level) - โอเค เฉยๆ<br>
+            "2" = Poor (under expectation) - แย่<br>
+            "1" = Worst (Urgent for improvement) - แย่มาก<br>
             
             <div class="w-full flex justify-center">
             <button onclick="startSurvey1()" class="w-full  mb-6 rounded-full max-w-md bg-[#0f513a] text-white py-4 text-2xl  hover:bg-pink-500">Start</button>
@@ -342,10 +342,10 @@ function renderThanksPage() {
   app.innerHTML = `
         <div class="flex flex-col items-center justify-center h-full p-8">
             <img src="logo.png" alt="Logo" class="mb-8 w-40">
-            <h1 class="text-4xl font-bold text-center mb-6">" Thank you for being part
+            <h1 class="text-2xl text-center mb-6">"Thank you for being part
             of our development."</h1>
             <br><br>
-            <p class="text-2xl text-center mb-12 text-[#ff668f]">We will fulfill our promise to continually provide
+            <p class="text-xl text-center mb-6 text-[#ff668f]">We will fulfill our promise to continually provide
             better quality service.</p>
 
             <button onclick="goToStart(reset=true)" class="w-full max-w-md bg-[#0f513a] text-white py-4 rounded-full text-2xl hover:bg-pink-600">Review</button>
