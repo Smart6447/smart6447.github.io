@@ -30,6 +30,9 @@ function renderPage() {
     case 'start':
       renderStartPage();
       break;
+    case 'start':
+      renderStartPage1();
+      break;
     case 'question1':
       renderQuestionPage1();
       break;
@@ -69,6 +72,31 @@ function renderStartPage() {
             <br>
             ตัวตนของคุณจะถูกเก็บเป็นความลับ ข้อเสนอแนะที่จริงใจของคุณช่วยให้เราปรับปรุงคุณภาพบริการได้อย่างยั่งยืน"
             </p>
+            
+            <div class="w-full flex justify-center">
+            <button onclick="startSurvey()" class="w-full  mb-6 rounded-full max-w-md bg-[#0f513a] text-white py-4 text-2xl  hover:bg-pink-500">Start</button>
+
+            </div>
+
+        </div>
+    `;
+}
+
+function renderStartPage1() {
+  /*<div class="flex flex-col h-full p-8">*/
+  app.innerHTML = `
+         <div class="flex flex-col items-center h-full p-8">
+            <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
+
+
+            <h1 class="text-3xl font-bold mb-8 text-center">${'Evaluation criteria เกณฑ์การประเมิน'}</h1>
+       
+            <p class="text-xl text-center mb-6 text-[#ff668f]">
+            "5" = Perfect (no room for improvement) - ดีเยี่ยม
+            "4" = Over expectation (still can be better) - ดี
+            "3" = Satisfy (as expectation level) - โอเค เฉยๆ
+            "2" = Poor (under expectation) - แย่
+            "1" = Worst (Urgent for improvement) - แย่มาก
             
             <div class="w-full flex justify-center">
             <button onclick="startSurvey()" class="w-full  mb-6 rounded-full max-w-md bg-[#0f513a] text-white py-4 text-2xl  hover:bg-pink-500">Start</button>
