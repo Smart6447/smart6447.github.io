@@ -30,7 +30,7 @@ function renderPage() {
     case 'start':
       renderStartPage();
       break;
-    case 'start':
+    case 'start1':
       renderStartPage1();
       break;
     case 'question1':
@@ -55,11 +55,11 @@ function renderStartPage() {
   /*<div class="flex flex-col h-full p-8">*/
   app.innerHTML = `
          <div class="flex flex-col items-center h-full p-8">
-            <img src="logo.png" alt="Logo" class="mb-8 w-40 self-center">
+            <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
        
         
 
-            <h1 class="text-4xl font-bold text-center mb-6">ADORA service feedback</h1>
+            <h1 class="text-2xl text-center mb-6">ADORA service feedback</h1>
 
             <p class="text-xl text-center mb-6 text-[#ff668f]">
             We believe that “Exceptional quality of service is the foundation upon which lasting relationships are built."
@@ -99,7 +99,7 @@ function renderStartPage1() {
             "1" = Worst (Urgent for improvement) - แย่มาก
             
             <div class="w-full flex justify-center">
-            <button onclick="startSurvey()" class="w-full  mb-6 rounded-full max-w-md bg-[#0f513a] text-white py-4 text-2xl  hover:bg-pink-500">Start</button>
+            <button onclick="startSurvey1()" class="w-full  mb-6 rounded-full max-w-md bg-[#0f513a] text-white py-4 text-2xl  hover:bg-pink-500">Start</button>
 
             </div>
 
@@ -121,7 +121,7 @@ function renderQuestionPage1() {
   app.innerHTML = `
           <div class="flex flex-col h-full p-8">
               <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
-              <h2 class="text-3xl font-bold mb-8 text-center">${'Type of service? ประเภทบริการ'}</h2>
+              <h2 class="text-xl font-bold mb-8 text-center">${'Type of service? ประเภทบริการ'}</h2>
               <div class="space-y-4 mb-8 flex-grow">
                   ${options
                     .map(
@@ -168,7 +168,7 @@ function renderQuestionPage2() {
   app.innerHTML = `
             <div class="flex flex-col h-full p-8">
                 <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
-                <h2 class="text-3xl font-bold mb-8 text-center">${'Staff’s name? ชื่อพนักงาน'}</h2>
+                <h2 class="text-xl font-bold mb-8 text-center">${'Staff’s name? ชื่อพนักงาน'}</h2>
                 <div class="space-y-4 mb-8 flex-grow">
                     ${options
                       .map(
@@ -189,7 +189,7 @@ function renderQuestionPage2() {
                       
                 </div>
                 
-                <h2 class="text-3xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
+                <h2 class="text-xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-4 mb-8 flex-grow text-center">
                     ${['1', '2', '3', '4', '5']
                       .map(
@@ -245,7 +245,7 @@ function renderQuestionPage3() {
   app.innerHTML = `
             <div class="flex flex-col h-full p-8">
                 <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
-                <h2 class="text-3xl font-bold mb-8 text-center">${'Doctor’s name? ชื่อคุณหมอ'}</h2>
+                <h2 class="text-xl font-bold mb-8 text-center">${'Doctor’s name? ชื่อคุณหมอ'}</h2>
                 <div class="space-y-4 mb-8 flex-grow">
                     ${options
                       .map(
@@ -265,7 +265,7 @@ function renderQuestionPage3() {
                       }
                 </div>
                 
-                <h2 class="text-3xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
+                <h2 class="text-xl font-bold mb-8 text-center">Rate the Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-4 mb-8 flex-grow text-center">
                     ${['1', '2', '3', '4', '5']
                       .map(
@@ -311,7 +311,7 @@ function renderQuestionPage4() {
   app.innerHTML = `
             <div class="flex flex-col h-full p-8">
                 <img src="logo.png" alt="Logo" class="mb-8 w-24 self-center">
-                <h2 class="text-3xl font-bold mb-8 text-center">${'Recommendations and Feedback (ข้อเสนอแนะ/ติชม)'}</h2>
+                <h2 class="text-xl font-bold mb-8 text-center">${'Recommendations and Feedback (ข้อเสนอแนะ/ติชม)'}</h2>
                 <div class="space-y-4 mb-8 flex-grow">
                     <textarea id="feedbackInput" class="w-full h-24 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"></textarea>
                 </div>
@@ -360,6 +360,11 @@ function getFeedBack() {
 
 function startSurvey() {
   currentPage = 'question1';
+  renderPage();
+}
+
+function startSurvey1() {
+  currentPage = 'Start1';
   renderPage();
 }
 
