@@ -37,6 +37,9 @@ function renderPage() {
     case 'start':
       renderStartPage();
       break;
+    case 'second':
+      renderSecondPage();
+      break;
     case 'question1':
       renderQuestionPage1();
       break;
@@ -56,6 +59,40 @@ function renderPage() {
 }
 
 function renderStartPage() {
+  /*<div class="flex flex-col h-full p-8">*/
+  app.innerHTML = `
+         <div class="flex flex-col items-center h-full p-8">
+            <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
+       
+            <h1 class="text-xl font-bold text-center mb-3">ADORA service feedback</h1>
+
+            <p class="text-lg text-center mb-4 text-[#ff668f]">
+            We believe that 'Nothing is more important than
+            the quality of service
+            Thank you for taking the time to help improve
+            the quality of our service.
+            Don't worry!!! The staff cannot know your
+            identity.
+            <br><br>
+            Please certainly give us honest feedback for
+            sustainable service quality development.
+            <br><br>
+            ไม่ต้องกังวล!!! พนักงานของเราไม่สามารถทราบถึงตัว
+            ตนของผู้ให้ feedback ได้
+            คุณลุกค้าสามารถให้คำติชมอย่างตรงไปตรงมาเพื่อ
+            การพัฒนาบริการอย่างยั่งยืน
+            </p>
+            
+            <div class="w-full flex justify-center">
+            <button onclick="startSecond()" class="w-full  mb-2 rounded-full max-w-md bg-[#0f513a] text-white py-2 text-xl  hover:bg-pink-500">Start</button>
+
+            </div>
+
+        </div>
+    `;
+}
+
+function renderSecondPage() {
   /*<div class="flex flex-col h-full p-8">*/
   app.innerHTML = `
          <div class="flex flex-col items-center h-full p-8">
@@ -416,6 +453,19 @@ function renderThanksPage() {
 function getFeedBack() {
   const feedbackInput = document.getElementById('feedbackInput').value;
   answers[currentQuestion] = feedbackInput;
+}
+
+function startSecond() {
+  document.getElementById('loadingModal').classList.remove('hidden');
+  document.getElementById('loadingModal').classList.add('block');
+
+  setTimeout(() => {
+    currentPage = 'Second';
+    renderPage();
+
+    document.getElementById('loadingModal').classList.remove('block');
+    document.getElementById('loadingModal').classList.add('hidden');
+  }, 500);
 }
 
 function startSurvey() {
