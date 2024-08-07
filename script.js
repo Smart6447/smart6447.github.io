@@ -107,12 +107,14 @@ function renderSecondPage() {
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
             The service quality of staff and doctor<br>
+            <ul style="list-style-type: none; padding-left: 3em;">
             เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
-            "5 stars" Perfect - ดีเยี่ยม<br>
-            "4 stars" Over expectation - ดี<br>
-            "3 stars" Satisfy - พอใจ<br>
-            "2 stars" Poor - แย่<br>
-            "1 star"  Worst - แย่มาก<br><br>
+            <li>"5 stars" Perfect - ดีเยี่ยม</li>
+            <li>"4 stars" Over expectation - ดี</li>
+            <li>"3 stars" Satisfy - พอใจ</li>
+            <li>"2 stars" Poor - แย่</li>
+            <li>"1 star"  Worst - แย่มาก</li><br>
+            </ul>
             </p>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
