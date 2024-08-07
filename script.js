@@ -67,24 +67,21 @@ function renderStartPage() {
             <h1 class="text-xl font-bold text-center mb-3">ADORA service feedback</h1>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
-            We believe that 'Nothing is more important than
-            the quality of service
-            Thank you for taking the time to help improve
-            the quality of our service.
+            We believe that “Exceptional quality of service
+            is the foundation upon which 
+            lasting relationships are built."
             Don't worry!!! The staff cannot know your
-            identity.
-            <br><br>
-            Please certainly give us honest feedback for
-            sustainable service quality development.
-            <br><br>
-            ไม่ต้องกังวล!!! พนักงานของเราไม่สามารถทราบถึงตัว
-            ตนของผู้ให้ feedback ได้
-            คุณลุกค้าสามารถให้คำติชมอย่างตรงไปตรงมาเพื่อ
-            การพัฒนาบริการอย่างยั่งยืน
+            identity.<br><br>
+            Don't worry!!! Your identity remains confidential.<br>
+            Your candid feedback empowers us to 
+            enhance our service quality sustainably."<br><br>
+            อย่ากังวล!!! ตัวตนของคุณจะถูกเก็บเป็นความลับ<br>
+            ข้อเสนอแนะที่จริงใจของคุณ<br>
+            ช่วยให้เราปรับปรุงคุณภาพบริการได้อย่างยั่งยืน"
             </p>
             
             <div class="w-full flex justify-center">
-            <button onclick="startSecond()" class="w-full  mb-2 rounded-full max-w-md bg-[#0f513a] text-white py-2 text-xl  hover:bg-pink-500">Start</button>
+            <button onclick="startSecond()" class="w-full  mb-2 rounded-full max-w-md bg-[#0f513a] text-white py-2 text-xl  hover:bg-pink-500">Next</button>
 
             </div>
 
@@ -98,23 +95,18 @@ function renderSecondPage() {
          <div class="flex flex-col items-center h-full p-8">
             <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
        
-            <h1 class="text-xl font-bold text-center mb-3">ADORA service feedback</h1>
+            <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
-            We believe that 'Nothing is more important than
-            the quality of service
-            Thank you for taking the time to help improve
-            the quality of our service.
-            Don't worry!!! The staff cannot know your
-            identity.
-            <br><br>
-            Please certainly give us honest feedback for
-            sustainable service quality development.
-            <br><br>
-            ไม่ต้องกังวล!!! พนักงานของเราไม่สามารถทราบถึงตัว
-            ตนของผู้ให้ feedback ได้
-            คุณลุกค้าสามารถให้คำติชมอย่างตรงไปตรงมาเพื่อ
-            การพัฒนาบริการอย่างยั่งยืน
+            The service quality of staff and doctor<br>
+            เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
+            "5" = Perfect (no room for improvement) - ดีเยี่ยม<br>
+            "4" = Over expectation (still can be better) - ดี<br>
+            "3" = Satisfy (as expectation level) - โอเค เฉยๆ<br>
+            "2" = Poor (under expectation) - แย่<br>
+            "1" = Worst (Urgent for improvement) - แย่มาก<br><br>
+            To give feedback, please write on the last page.<br>
+            สำหรับเขียนข้อแนะนำเพิ่มเติมจะอยู่หน้าสุดท้ายนะคะ
             </p>
             
             <div class="w-full flex justify-center">
@@ -177,9 +169,9 @@ function renderQuestionPage1() {
 function renderQuestionPage2() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
-    'K.Jane คุณแจน',
-    'K.Pim คุณแจน',
-    'K.Namwaan คุณแจน',
+    'K.Jane คุณเจน',
+    'K.Pim คุณพิม',
+    'K.Namwaan คุณน้ำหวาน',
     'Other อื่นๆ',
   ];
 
