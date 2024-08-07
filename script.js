@@ -72,7 +72,7 @@ function renderStartPage() {
             lasting relationships are built."<br><br><br>
             </p>
             <p class="text-lg font-bold text-center mb-4 text-[#ff668f]">
-            Don't worry!!!<br>
+            Don't worry!!!
             </p>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             Your identity remains confidential.<br>
@@ -80,7 +80,7 @@ function renderStartPage() {
             enhance our service quality sustainably."<br><br>
             </p>
             <p class="text-lg font-bold text-center mb-4 text-[#ff668f]">
-            อย่ากังวล!!!<br>
+            อย่ากังวล!!!
             </p>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             ตัวตนของคุณจะถูกเก็บเป็นความลับ<br>
@@ -106,8 +106,10 @@ function renderSecondPage() {
             <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
-            The service quality of staff and doctor<br>
-            <ul style="list-style-type: none; padding-left: 3em;">
+            The service quality of staff and doctor
+            <style>
+            li {color: #ff668f;}
+            <ul style="list-style-type: none; padding-left: 5em;">
             เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
             <li>"5 stars" Perfect - ดีเยี่ยม</li>
             <li>"4 stars" Over expectation - ดี</li>
@@ -115,6 +117,7 @@ function renderSecondPage() {
             <li>"2 stars" Poor - แย่</li>
             <li>"1 star"  Worst - แย่มาก</li><br>
             </ul>
+            </style>
             </p>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
