@@ -103,7 +103,7 @@ function renderSecondPage() {
          <div class="flex flex-col items-center h-full p-8">
             <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
        
-            <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1>
+            <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1><br>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
             The service quality of staff and doctor
@@ -118,7 +118,7 @@ function renderSecondPage() {
             <li>"1 star"  Worst - แย่มาก</li><br>
             </ul>
             </style>
-            </p>
+            </p><br><br><br>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
             สำหรับเขียนข้อแนะนำเพิ่มเติมจะอยู่หน้าสุดท้ายนะคะ
@@ -405,7 +405,7 @@ function renderQuestionPage4() {
                 <div class="space-y-2 mb-4  w-full">
                     <textarea id="feedbackInput" class="w-full h-32 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"></textarea>
                 </div>
-
+                <br><br><br><br><br>
                 <div class="space-y-2 w-full mb-4 text-center">
                 <button onclick="nextQuestion()" class="w-full max-w-md bg-[#0f513a] text-white py-2 rounded-full text-xl hover:bg-pink-600">
                 ${currentQuestion === questions - 1 ? 'Submit' : 'Next'}
