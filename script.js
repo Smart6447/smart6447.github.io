@@ -453,7 +453,7 @@ function startSecond() {
 
   setTimeout(() => {
     currentPage = 'Second';
-    renderSecondPage();
+    renderPage();
 
     document.getElementById('loadingModal').classList.remove('block');
     document.getElementById('loadingModal').classList.add('hidden');
