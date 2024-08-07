@@ -37,6 +37,9 @@ function renderPage() {
     case 'start':
       renderStartPage();
       break;
+    case 'second':
+      renderSecondPage();
+      break;
     case 'question1':
       renderQuestionPage1();
       break;
@@ -78,6 +81,35 @@ function renderStartPage() {
             </p>
             
             <div class="w-full flex justify-center">
+            <button onclick="startSecond()" class="w-full  mb-2 rounded-full max-w-md bg-[#0f513a] text-white py-2 text-xl  hover:bg-pink-500">Next</button>
+
+            </div>
+
+        </div>
+    `;
+}
+
+function renderSecondPage() {
+  /*<div class="flex flex-col h-full p-8">*/
+  app.innerHTML = `
+         <div class="flex flex-col items-center h-full p-8">
+            <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
+       
+            <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1>
+
+            <p class="text-lg text-center mb-4 text-[#ff668f]">
+            The service quality of staff and doctor<br>
+            เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
+            "5" = Perfect (no room for improvement) - ดีเยี่ยม<br>
+            "4" = Over expectation (still can be better) - ดี<br>
+            "3" = Satisfy (as expectation level) - โอเค เฉยๆ<br>
+            "2" = Poor (under expectation) - แย่<br>
+            "1" = Worst (Urgent for improvement) - แย่มาก<br><br>
+            To give feedback, please write on the last page.<br>
+            สำหรับเขียนข้อแนะนำเพิ่มเติมจะอยู่หน้าสุดท้ายนะคะ
+            </p>
+            
+            <div class="w-full flex justify-center">
             <button onclick="startSurvey()" class="w-full  mb-2 rounded-full max-w-md bg-[#0f513a] text-white py-2 text-xl  hover:bg-pink-500">Start</button>
 
             </div>
@@ -92,7 +124,7 @@ function renderQuestionPage1() {
     'Hair Removal กำจัดขน',
     'Treatment หัตถการโดยพนักงาน',
     'Virgin Lift กระชับน้องสาว',
-    'Procedure หัตถการโดยแพทย',
+    'Procedure หัตถการโดยแพทย์',
     'Surgery ศัลยกรรม',
     'Other อื่นๆ',
   ];
@@ -413,6 +445,19 @@ function renderThanksPage() {
 function getFeedBack() {
   const feedbackInput = document.getElementById('feedbackInput').value;
   answers[currentQuestion] = feedbackInput;
+}
+
+function startSecond() {
+  document.getElementById('loadingModal').classList.remove('hidden');
+  document.getElementById('loadingModal').classList.add('block');
+
+  setTimeout(() => {
+    currentPage = 'second';
+    renderSecondPage();
+
+    document.getElementById('loadingModal').classList.remove('block');
+    document.getElementById('loadingModal').classList.add('hidden');
+  }, 500);
 }
 
 function startSurvey() {
