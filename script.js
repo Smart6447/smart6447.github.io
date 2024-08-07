@@ -66,10 +66,10 @@ function renderStartPage() {
        
             <h1 class="text-xl font-bold text-center mb-3">ADORA service feedback</h1>
 
-            <p class="text-lg text-center mb-4 text-[#ff668f]">
+            <p class="text-lg font-bold text-center mb-4 text-[#ff668f]">
             We believe that “Exceptional quality of service
             is the foundation upon which 
-            lasting relationships are built."<br><br>
+            lasting relationships are built."<br><br><br>
             Don't worry!!!<br>
             Your identity remains confidential.<br>
             Your candid feedback empowers us to 
@@ -100,11 +100,13 @@ function renderSecondPage() {
             <p class="text-lg text-center mb-4 text-[#ff668f]">
             The service quality of staff and doctor<br>
             เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
-            "5" = Perfect (no room for improvement) - ดีเยี่ยม<br>
-            "4" = Over expectation (still can be better) - ดี<br>
-            "3" = Satisfy (as expectation level) - โอเค เฉยๆ<br>
-            "2" = Poor (under expectation) - แย่<br>
-            "1" = Worst (Urgent for improvement) - แย่มาก<br><br>
+            "5 stars" Perfect - ดีเยี่ยม<br>
+            "4 stars" Over expectation - ดี<br>
+            "3 stars" Satisfy - พอใจ<br>
+            "2 stars" Poor - แย่<br>
+            "1 star"  Worst - แย่มาก<br><br>
+            </p>
+            <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
             สำหรับเขียนข้อแนะนำเพิ่มเติมจะอยู่หน้าสุดท้ายนะคะ
             </p>
