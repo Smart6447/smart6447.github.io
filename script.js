@@ -70,11 +70,19 @@ function renderStartPage() {
             We believe that “Exceptional quality of service
             is the foundation upon which 
             lasting relationships are built."<br><br><br>
+            </p>
+            <p class="text-lg font-bold text-center mb-4 text-[#ff668f]">
             Don't worry!!!<br>
+            </p>
+            <p class="text-md font-bold text-center mb-4 text-[#ff668f]">
             Your identity remains confidential.<br>
             Your candid feedback empowers us to 
             enhance our service quality sustainably."<br><br>
+            </p>
+            <p class="text-lg font-bold text-center mb-4 text-[#ff668f]">
             อย่ากังวล!!!<br>
+            </p>
+            <p class="text-md font-bold text-center mb-4 text-[#ff668f]">
             ตัวตนของคุณจะถูกเก็บเป็นความลับ<br>
             ข้อเสนอแนะที่จริงใจของคุณ<br>
             ช่วยให้เราปรับปรุงคุณภาพบริการได้อย่างยั่งยืน"
