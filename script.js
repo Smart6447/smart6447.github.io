@@ -106,18 +106,17 @@ function renderSecondPage() {
             <h1 class="text-xl font-bold text-center mb-3">Evaluation criteria</h1><br>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
-            The service quality of staff and doctor
-            <style>
-            li {color: #ff668f;}
-            <ul style="list-style-type: none; padding-left: 5em;">
+            The service quality of staff and doctor<br>
             เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
-            <li>"5 stars" Perfect - ดีเยี่ยม</li>
-            <li>"4 stars" Over expectation - ดี</li>
-            <li>"3 stars" Satisfy - พอใจ</li>
-            <li>"2 stars" Poor - แย่</li>
-            <li>"1 star"  Worst - แย่มาก</li><br>
+            </p>
+            <p class="text-lg text-center mb-4 text-[#ff668f]">
+            <ul style="list-style-type: none; padding-left: 5em;">
+            <li style="color: #ff668f;">"5 stars" Perfect - ดีเยี่ยม</li>
+            <li style="color: #ff668f;">"4 stars" Over expectation - ดี</li>
+            <li style="color: #ff668f;">"3 stars" Satisfy - พอใจ</li>
+            <li style="color: #ff668f;">"2 stars" Poor - แย่</li>
+            <li style="color: #ff668f;">"1 star"  Worst - แย่มาก</li><br>
             </ul>
-            </style>
             </p><br><br><br>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
