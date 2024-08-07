@@ -23,16 +23,60 @@
         body {
             font-family: 'Noto', sans-serif;
         }
+
+        .loading-modal {
+            display: flex;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+
+
+        .loading-spinner {
+            border: 16px solid #ff668f;
+            border-top: 16px solid #ffecec;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 
 <body class="bg-[#ffecec] min-h-screen font-Noto">
+    <div id="loadingModal"
+        class="loading-modal fixed top-0 left-0 w-full h-full flex items-center justify-center bg-[#ffecec] hidden">
+        <div class="loading-spinner text-[#ff668f]">
+            <!-- <img src="logo.png" alt="Logo" class="w-20 self-center"> -->
+            <!-- Loading... -->
+        </div>
+    </div>
+
     <div id="app" class="w-full h-screen flex flex-col">
         <!-- Content will be dynamically inserted here -->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
         integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="script.js"></script>
 </body>
