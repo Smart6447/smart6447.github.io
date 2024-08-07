@@ -64,20 +64,17 @@ function renderStartPage() {
             <h1 class="text-xl font-bold text-center mb-3">ADORA service feedback</h1>
 
             <p class="text-lg text-center mb-4 text-[#ff668f]">
-            We believe that 'Nothing is more important than
-            the quality of service
-            Thank you for taking the time to help improve
-            the quality of our service.
-            Don't worry!!! The staff cannot know your
-            identity.
-            <br><br>
-            Please certainly give us honest feedback for
-            sustainable service quality development.
-            <br><br>
-            ไม่ต้องกังวล!!! พนักงานของเราไม่สามารถทราบถึงตัว
-            ตนของผู้ให้ feedback ได้
-            คุณลุกค้าสามารถให้คำติชมอย่างตรงไปตรงมาเพื่อ
-            การพัฒนาบริการอย่างยั่งยืน
+            We believe that “Exceptional quality of service
+            is the foundation upon which 
+            lasting relationships are built."<br><br>
+            Don't worry!!!<br>
+            Your identity remains confidential.<br>
+            Your candid feedback empowers us to 
+            enhance our service quality sustainably."<br><br>
+            อย่ากังวล!!!<br>
+            ตัวตนของคุณจะถูกเก็บเป็นความลับ<br>
+            ข้อเสนอแนะที่จริงใจของคุณ<br>
+            ช่วยให้เราปรับปรุงคุณภาพบริการได้อย่างยั่งยืน"
             </p>
             
             <div class="w-full flex justify-center">
@@ -140,9 +137,9 @@ function renderQuestionPage1() {
 function renderQuestionPage2() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
-    'K.Jane คุณแจน',
-    'K.Pim คุณแจน',
-    'K.Namwaan คุณแจน',
+    'K.Jane คุณเจน',
+    'K.Pim คุณพิม',
+    'K.Namwaan คุณน้ำหวาน',
     'Other อื่นๆ',
   ];
 
