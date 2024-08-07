@@ -439,7 +439,7 @@ function renderThanksPage() {
             <p class="text-xl text-center mb-6 text-[#ff668f]">We will fulfill our promise to continually provide
             better quality service.</p>
 
-            <button onclick="goToStart(reset=true)" class="w-full max-w-md bg-[#0f513a] text-white py-2 rounded-full text-xl hover:bg-pink-600">Review</button>
+            <button onclick="goToStart(reset=true)" class="w-full max-w-md bg-[#0f513a] text-white py-2 rounded-full text-xl hover:bg-pink-600">Back to home</button>
         </div>
     `;
 }
