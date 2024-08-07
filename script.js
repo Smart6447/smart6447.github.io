@@ -1,4 +1,4 @@
-const app = document.getElementById('app');
+dconst app = document.getElementById('app');
 console.log('Start Version 1');
 let currentPage = 'start';
 let currentQuestion = 0;
@@ -453,7 +453,7 @@ function startSecond() {
 
   setTimeout(() => {
     currentPage = 'Second';
-    renderPage();
+    renderSecondPage();
 
     document.getElementById('loadingModal').classList.remove('block');
     document.getElementById('loadingModal').classList.add('hidden');
