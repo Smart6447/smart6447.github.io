@@ -37,7 +37,7 @@ function renderPage() {
     case 'start':
       renderStartPage();
       break;
-    case 'second':
+    case 'second': 
       renderSecondPage();
       break;
     case 'question1':
@@ -452,7 +452,7 @@ function startSecond() {
   document.getElementById('loadingModal').classList.add('block');
 
   setTimeout(() => {
-    currentPage = 'Second';
+    currentPage = 'second';
     renderPage();
 
     document.getElementById('loadingModal').classList.remove('block');
