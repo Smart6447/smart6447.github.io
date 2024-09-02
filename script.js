@@ -224,7 +224,7 @@ function renderQuestionPage2() {
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
                           'None'
                         )}">
-                            None - ข้าม
+                            None
                         </button>
                     `}     
                       
@@ -294,7 +294,6 @@ function renderQuestionPage3() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
     'Dr.Bow หมอโบว์',
-    'Dr.Namcha หมอน้ำชา',
     'Dr.Kay หมอเคย์',
     'Dr.Wan หมอหวาน',
     'Dr.Fai หมอฝ้าย',
@@ -335,7 +334,7 @@ function renderQuestionPage3() {
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
                           'None'
                         )}">
-                            None - ไม่ได้พบแพทย์
+                            None
                         </button>
                     `}     
                 </div>
