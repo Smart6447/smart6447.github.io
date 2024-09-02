@@ -222,7 +222,7 @@ function renderQuestionPage2() {
 
                     ${`
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
-                          'None'
+                          'None-ข้าม'
                         )}">
                             None
                         </button>
@@ -333,7 +333,7 @@ function renderQuestionPage3() {
                       }
                       ${`
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
-                          'None'
+                          'None-ข้าม'
                         )}">
                             None
                         </button>
