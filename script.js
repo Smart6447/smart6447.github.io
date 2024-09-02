@@ -224,7 +224,7 @@ function renderQuestionPage2() {
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
                           'None'
                         )}">
-                            None
+                            None - ไม่ระบุพนักงาน
                         </button>
                     `}     
                       
@@ -334,7 +334,7 @@ function renderQuestionPage3() {
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
                           'None'
                         )}">
-                            None
+                            None - ไม่ได้พบหมอ
                         </button>
                     `}     
                 </div>
