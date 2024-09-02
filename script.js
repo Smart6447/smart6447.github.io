@@ -19,7 +19,7 @@ function getButtonNone(option) {
   if (answers[currentQuestion] === option) {
     return 'w-full bg-[#0f513a] text-white py-1 rounded-lg text-xl hover:bg-[#0f513a] text-white font-Noto';
   }
-  return 'w-full bg-[#808080] text-[#000] py-1 rounded-lg text-xl hover:bg-gray-300 font-Noto';
+  return 'w-full bg-[#ff99b425] text-[#ff99b4] py-1 rounded-lg text-xl hover:bg-gray-300 font-Noto';
 }
 
 function getButtonClassStar(option) {
@@ -185,6 +185,7 @@ function renderQuestionPage2() {
     'K.Jane คุณเจน',
     'K.Pim คุณพิม',
     'K.Namwaan คุณน้ำหวาน',
+    'K.Nat คุณแนท',
     'Other อื่นๆ',
   ];
 
@@ -295,13 +296,16 @@ function renderQuestionPage3() {
     'Dr.Bow หมอโบว์',
     'Dr.Namcha หมอน้ำชา',
     'Dr.Kay หมอเคย์',
+    'Dr.Wan หมอหวาน',
+    'Dr.Fai หมอฝ้าย',
+    'Dr.Ter หมอเต้อ',
     'Other อื่นๆ',
   ];
 
   app.innerHTML = `
             <div class="flex flex-col h-full p-8">
                 <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
-                <h2 class="text-xl font-bold mb-4 text-center">${'Doctor’s name? ชื่อคณุหมอ'}</h2>
+                <h2 class="text-xl font-bold mb-4 text-center">${'Doctor’s name? ชื่อคุณหมอ'}</h2>
                 <div class="space-y-2 mb-4 flex-grow">
                     ${options
                       .map((option) =>
