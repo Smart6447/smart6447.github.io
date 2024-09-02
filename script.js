@@ -222,9 +222,9 @@ function renderQuestionPage2() {
 
                     ${`
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
-                          'None-ข้าม'
+                          'None'
                         )}">
-                            None
+                            None - ข้าม
                         </button>
                     `}     
                       
@@ -333,9 +333,9 @@ function renderQuestionPage3() {
                       }
                       ${`
                         <button onclick="answerQuestion('None')" class="${getButtonNone(
-                          'None-ข้าม'
+                          'None'
                         )}">
-                            None
+                            None - ไม่ได้พบแพทย์
                         </button>
                     `}     
                 </div>
