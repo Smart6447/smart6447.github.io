@@ -110,13 +110,14 @@ function renderSecondPage() {
             เกณฑ์คุณภาพการให้บริการของพนักงาน/หมอ<br><br>
             </p>
             <ul style="list-style-type: none; padding-left: 2em;">
-            <li style="color: #ff668f; font-size: 18px;">"5 stars" Perfect - ดีเยี่ยม</li>
+            <li style="color: #f20b0b; font-size: 18px;">"6 stars" Perfecto!!! - สมบูรณ์แบบ</li>
+            <li style="color: #ff668f; font-size: 18px;">"5 stars" Excellent - ดีเยี่ยม</li>
             <li style="color: #ff668f; font-size: 18px;">"4 stars" Over expectation - ดี</li>
             <li style="color: #ff668f; font-size: 18px;">"3 stars" Satisfy - พอใจ</li>
             <li style="color: #ff668f; font-size: 18px;">"2 stars" Poor - แย่</li>
             <li style="color: #ff668f; font-size: 18px;">"1 star"  Worst - แย่มาก</li><br>
             </ul>
-            </p><br><br><br><br>
+            </p><br><br><br>
             <p class="text-md text-center mb-4 text-[#ff668f]">
             To give feedback, please write on the last page.<br>
             สำหรับเขียนข้อแนะนำเพิ่มเติมจะอยู่หน้าสุดท้ายนะคะ
@@ -232,7 +233,7 @@ function renderQuestionPage2() {
                 
                 <h2 class="text-xl font-bold text-center">Rate if Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-2 mb-4 flex-grow text-center">
-                    ${['1', '2', '3', '4', '5']
+                    ${['1', '2', '3', '4', '5', '6']
                       .map(
                         (option) => `
                         <button onclick="answerQuestionStar('${option}')" class="${getButtonClassStar(
@@ -296,7 +297,6 @@ function renderQuestionPage3() {
     'Dr.Bow หมอโบว์',
     'Dr.Kay หมอเคย์',
     'Dr.Wan หมอหวาน',
-    'Dr.Fai หมอฝ้าย',
     'Dr.Ter หมอเต้อ',
     'Other อื่นๆ',
   ];
@@ -341,7 +341,7 @@ function renderQuestionPage3() {
                 
                 <h2 class="text-xl font-bold text-center">Rate if Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-2 mb-4 flex-grow text-center">
-                    ${['1', '2', '3', '4', '5']
+                    ${['1', '2', '3', '4', '5', '6']
                       .map(
                         (option) => `
                         <button onclick="answerQuestionStar('${option}')" class="${getButtonClassStar(
