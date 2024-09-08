@@ -233,7 +233,7 @@ function renderQuestionPage2() {
                 
                 <h2 class="text-xl font-bold text-center">Rate if Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-2 mb-4 flex-grow text-center">
-                    ${['1', '2', '3', '4', '5', '<6>']
+                    ${['1', '2', '3', '4', '5', '[6]']
                       .map(
                         (option) => `
                         <button onclick="answerQuestionStar('${option}')" class="${getButtonClassStar(
@@ -341,7 +341,7 @@ function renderQuestionPage3() {
                 
                 <h2 class="text-xl font-bold text-center">Rate if Service คะแนนการบริการ</h2>
                 <div class="w-full space-y-2 mb-4 flex-grow text-center">
-                    ${['1', '2', '3', '4', '5', '<6>']
+                    ${['1', '2', '3', '4', '5', '[6] ']
                       .map(
                         (option) => `
                         <button onclick="answerQuestionStar('${option}')" class="${getButtonClassStar(
