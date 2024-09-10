@@ -296,7 +296,7 @@ function renderQuestionPage3() {
   const options = [
     'Dr.Bow หมอโบว์',
     'Dr.Kay หมอเคย์',
-    'Dr.Wan หมอวัน',
+    'Dr.Wan หมอว่าน',
     'Dr.Ter หมอเต้อ',
     'Other อื่นๆ',
   ];
