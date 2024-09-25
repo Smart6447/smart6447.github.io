@@ -186,7 +186,6 @@ function renderQuestionPage2() {
     'K.Jane คุณเจน',
     'K.Pim คุณพิม',
     'K.Namwaan คุณน้ำหวาน',
-    'K.Nat คุณแนท',
     'Other อื่นๆ',
   ];
 
@@ -296,7 +295,7 @@ function renderQuestionPage3() {
   const options = [
     'Dr.Bow หมอโบว์',
     'Dr.Kay หมอเคย์',
-    'Dr.Wan หมอว่าน',
+    'Dr.Wan หมอป๊อปปี้',
     'Dr.Ter หมอเต้อ',
     'Other อื่นๆ',
   ];
