@@ -297,6 +297,8 @@ function renderQuestionPage3() {
     'Dr.Kay หมอเคย์',
     'Dr.Poppy หมอป๊อปปี้',
     'Dr.Ter หมอเต้อ',
+    'Dr.India หมออินเดีย',
+    'Dr.Gun หมอกัน',
     'Other อื่นๆ',
   ];
 
