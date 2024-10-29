@@ -186,8 +186,9 @@ function renderQuestionPage2() {
     'K.Jane คุณเจน',
     'K.Pim คุณพิม',
     'K.Namwaan คุณน้ำหวาน',
-    'K.Tangmo ตุณแตงโม',
+    'K.Tangmo คุณแตงโม',
     'K.A-Ngoon คุณองุ่น',
+    'K.Nid คุณนิด',
     'Other อื่นๆ',
   ];
 
