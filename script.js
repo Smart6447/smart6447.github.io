@@ -302,6 +302,8 @@ function renderQuestionPage3() {
     'Dr.Ter หมอเต้อ',
     'Dr.India หมออินเดีย',
     'Dr.Gun หมอกัน',
+    'Dr.Work หมอเวิร์ค',
+    'Dr.Jane หมอเจน',
     'Other อื่นๆ',
   ];
 
