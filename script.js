@@ -301,7 +301,7 @@ function renderQuestionPage3() {
     'Dr.Poppy หมอป๊อปปี้',
     'Dr.India หมออินเดีย',
     'Dr.Gun หมอกัน',
-    'Dr.Work หมอเวิร์ค',
+    'Dr.Fang หมอฟาง',
     'Other อื่นๆ',
   ];
 
