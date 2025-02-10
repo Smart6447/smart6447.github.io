@@ -299,7 +299,6 @@ function renderQuestionPage3() {
     'Dr.Bow หมอโบว์',
     'Dr.Kay หมอเคย์',
     'Dr.Poppy หมอป๊อปปี้',
-    'Dr.India หมออินเดีย',
     'Dr.Gun หมอกัน',
     'Dr.Fang หมอฟาง',
     'Other อื่นๆ',
