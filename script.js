@@ -406,7 +406,7 @@ function renderQuestionPage4() {
             <div class="flex flex-col h-full p-8 text-center ">
                 <img src="logo.png" alt="Logo" class="mb-4 w-20 self-center">
                 <h2 class="text-xl font-bold mb-4 text-center">${'Recommendations and Feedback (ข้อเสนอแนะ/ติชม)'}</h2><br>
-                <h2 class="text-md font-bold mb-2 text-center">${'"For optimal improvement and to serve you better, you may optionally provide your name."'}</h2>
+                <h2 class="text-sm font-bold mb-2 text-center">${'"For optimal improvement and to serve you better, you may optionally provide your name."'}</h2>
                 <h2 class="text-md font-bold mb-2 text-center">${'"คุณสามารถระบุชื่อของคุณ(optional) เพื่อการปรับปรุงการบริการอย่างแม่นยำยิ่งขึ้น"'}</h2><br>
                 <div class="space-y-2 mb-4  w-full">
                     <textarea id="feedbackInput" class="w-full h-32 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"></textarea>
