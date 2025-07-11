@@ -184,9 +184,10 @@ function renderQuestionPage2() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
     'K.Jane คุณเจน',
+    'K.Aom คุณอ้อม',
     'K.View คุณวิว',
-    'K.Namwaan คุณน้ำหวาน',
     'K.Pim คุณพิม',
+    'K.Namwaan คุณน้ำหวาน',
     'K.Tangmo คุณแตงโม',
     'K.A-Ngoon คุณองุ่น',
     'K.Nid คุณนิด',
@@ -300,8 +301,9 @@ function renderQuestionPage3() {
     'Dr.Bow หมอโบว์',
     'Dr.Elle หมอแอล',
     'Dr.Gun หมอกัน',
-    'Dr.Kay หมอเคย์',
     'Dr.Manow หมอมะนาว',
+    'Dr.Guy หมอกาย',
+    'Dr.View หมอวิว',
     'Other อื่นๆ',
   ];
 
