@@ -190,7 +190,6 @@ function renderQuestionPage2() {
     'K.Namwaan คุณน้ำหวาน',
     'K.Tangmo คุณแตงโม',
     'K.A-Ngoon คุณองุ่น',
-    'K.Nid คุณนิด',
     'Other อื่นๆ',
   ];
 
