@@ -300,6 +300,7 @@ function renderQuestionPage3() {
     'Dr.Bow หมอโบว์',
     'Dr.Elle หมอแอล',
     'Dr.Gun หมอกัน',
+    'Dr.Namcha หมอน้ำชา',
     'Dr.Manow หมอมะนาว',
     'Dr.Guy หมอกาย',
     'Dr.View หมอวิว',
