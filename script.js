@@ -184,9 +184,7 @@ function renderQuestionPage2() {
   const progress = ((currentQuestion + 1) / questions) * 100;
   const options = [
     'K.Jane คุณเจน',
-    'K.Aom คุณอ้อม',
     'K.View คุณวิว',
-    'K.Pim คุณพิม',
     'K.Namwaan คุณน้ำหวาน',
     'K.Tangmo คุณแตงโม',
     'K.A-Ngoon คุณองุ่น',
