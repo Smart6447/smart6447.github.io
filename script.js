@@ -185,9 +185,9 @@ function renderQuestionPage2() {
   const options = [
     'K.Jane คุณเจน',
     'K.View คุณวิว',
-    'K.Namwaan คุณน้ำหวาน',
+    'K.Wann คุณวรรณ',
     'K.Tangmo คุณแตงโม',
-    'K.A-Ngoon คุณองุ่น',
+    'K.Ice คุณไอซ์',
     'Other อื่นๆ',
   ];
 
@@ -299,8 +299,6 @@ function renderQuestionPage3() {
     'Dr.Elle หมอแอล',
     'Dr.Gun หมอกัน',
     'Dr.Namcha หมอน้ำชา',
-    'Dr.Manow หมอมะนาว',
-    'Dr.Guy หมอกาย',
     'Dr.View หมอวิว',
     'Other อื่นๆ',
   ];
