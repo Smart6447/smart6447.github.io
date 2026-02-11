@@ -187,6 +187,7 @@ function renderQuestionPage2() {
     'K.Dol คุณดล',
     'K.View คุณวิว',
     'K.Palm คุณปาล์ม',
+    'K.Beam คุณบีม',
     'Other อื่นๆ',
   ];
 
